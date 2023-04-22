@@ -1,0 +1,43 @@
+/*Importing multiple SCSS style files */
+
+@import "scss/logo";
+@import "scss/nav";
+@import "scss/central-text";
+@import "scss/footer";
+@import "scss/buttons";
+@import "scss/medications";
+@import "scss/medication-text";
+@import "scss/procedures";
+@import "scss/needle-cric";
+@import "scss/contact-form";
+@import "scss/download-text";
+@import "scss/aspirin-heading";
+@import "scss/adrenaline-heading";
+@import "scss/saved-items";
+@import "scss/dropdownContactForm";
+
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,500;0,600;1,400;1,600&display=swap");
+
+/* Sets variable for common colour used */
+$blue: #389cff;
+
+/* Defines a custom font from Google Fonts, sets a variable called 
+and applies some basic styles to all HTML elements using the asterisk selector. */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+}
+
+// Makes changes to Logo and Navigation bar
+header {
+  background-color: white;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.index-header {
+  position: relative;
+}

@@ -1,0 +1,45 @@
+#savedHeading,
+#commentForm,
+#contactForm {
+  width: 500px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: -25px;
+  border: solid red 4px;
+  padding: 10px 10px;
+  border-radius: 20px;
+  color: red;
+  color: white;
+  background-color: #389cff;
+}
+
+#savedItems {
+  width: 20%;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#commentForm,
+#contactForm {
+  width: 80%;
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+}
+
+#savedItems a {
+  display: flex;
+
+  justify-content: center;
+  padding: 10px;
+  margin-bottom: 5px;
+  background-color: $blue;
+  border-radius: 20px;
+  color: white;
+}
+
+.right-side {
+  margin-top: 10px;
+  margin-bottom: 50px;
+}

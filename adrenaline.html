@@ -1,0 +1,205 @@
+<!-- See _medication-text.scss for styling -->
+<!-- See _adrenaline-heading.scss for styling -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>1st Pulse Training</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <!-- Linking stylesheet to page -->
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <div class="logo">
+          <a href="index.html"
+            ><img src="images/logo.jpg" alt="1st Pulse logo"
+          /></a>
+        </div>
+
+        <!-- See _nav.scss for styling -->
+        <div class="navbar">
+          <!-- Div for Navigation bar -->
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <!-- Link to Home page -->
+            <li><a href="medications.html">Medications</a></li>
+            <!-- Link to Medication page -->
+            <li><a href="procedures.html">Procedures</a></li>
+            <!-- Link to Procedure page -->
+            <li><a href="downloads.html">Downloads</a></li>
+            <!-- Link to Links page -->
+          </ul>
+        </div>
+      </header>
+
+      <div class="medication-text">
+        <!-- Div for Main text -->
+
+        <div class="adrenaline-heading">
+          <div class="adrenaline">
+            <img
+              id="adrenaline"
+              src="images/adrenaline.jpg"
+              alt="Ampoules of adrenaline"
+            />
+          </div>
+          <div class="adrenaline-h1">
+            <h1>Adrenaline (Epinephrine)</h1>
+          </div>
+        </div>
+
+        <div class="split-screen">
+          <!-- Div for text on left side of screen -->
+          <div class="screen-left">
+            <h2>Drug Class</h2>
+            <p class="drug-class">Sympathomimetic</p>
+
+            <h2>Pharmacology</h2>
+            <p class="pharmacology">
+              Adrenaline is a catecholamine which primarily acts on the alpha
+              (A) and beta (B) adrenergic receptors. The actions of these
+              receptors cause an increase in heart rate (B1), an increase in the
+              force of myocardial contraction (B1), increase in the irritability
+              of the ventricles (B1), bronchodilation (B2) and peripheral
+              vasoconstriction (A1).
+            </p>
+            <h2>Metabolism</h2>
+            <p class="metabolism">
+              The majority of circulating adrenaline is metabolised by
+              sympathetic nerve endings. It is subject to the process of
+              mitrochondrial enzymatic breakdown by monoamine oxidase at the
+              synaptic level.
+            </p>
+            <h2>Indications</h2>
+            <ul class="indications">
+              <li>Cardiac arrest</li>
+              <li>Anaphylaxis or severe allergic reaction</li>
+              <li>Shock unresponsive to adequate fluid resuscitation</li>
+              <li>
+                Bradycardia with poor perfusion (unresponsive to atropine and/or
+                pacing)
+              </li>
+              <li>Life-threatening severe asthma</li>
+              <li>
+                Impending upper airway obstruction due to inflammation e.g.
+                inhalation burns
+              </li>
+              <li>Beta-blocker / calcium channel blocker toxicity</li>
+              <li>Croup (moderate to severe)</li>
+            </ul>
+          </div>
+
+          <!-- Div for text on right side of screen -->
+          <div class="screen-right">
+            <h2>Dosage</h2>
+            <h3 class="dosage">
+              Cardiac arrest: 1mg IV repeated at 3 - 5min intervals. No maximum
+              dose.
+            </h3>
+            <h3 class="dosage">
+              Anaphylaxis/severe allergic reaction: 0.5mg of 1:1000 undiluted
+              (anterolateral thigh). Repeat every 5min if needed.
+            </h3>
+            <h3 class="dosage">
+              Shock unresponsive to fluid resuscitation: 2 - 10ug/min. Titrate
+              to effect.
+            </h3>
+            <h3 class="dosage">
+              Resistant sympotmatic bradycardia (SBP &lt; 85mmHg): 2 - 10ug/min.
+              Titrate to effect.
+            </h3>
+            <h3 class="dosage">
+              Impending upper airway obstruction + croup: nebulisation (1ml of
+              1:1000 + 4mls N/S. If necessary, increase to 2 - 4mg adrenaline
+              diluted with 5ml N/S)
+            </h3>
+
+            <h2>Contraindications</h2>
+            <ul class="contraindications">
+              <li>None in an emergency setting</li>
+            </ul>
+            <h2>Precautions</h2>
+            <ul class="precautions">
+              <li>
+                Do NOT mix with alkaline solutions e.g. sodium bicarbonate
+              </li>
+              <li>Hypertension</li>
+              <li>Angina, myocardial ischaemia, CCF</li>
+              <li>Diabetes mellitus</li>
+              <li>Hyperthyroidism</li>
+              <li>Pregnancy</li>
+              <li>
+                Stimulant abuse e.g. cocaine. AVOID unless patient is pulseless
+              </li>
+            </ul>
+          </div>
+
+          <div class="screen-left">
+            <h2>Side Effects</h2>
+            <ul class="side-effects">
+              <li>Anxiety, confusion, headache</li>
+              <li>Hypertension</li>
+              <li>Palpitations/tachyarrhythmias</li>
+              <li>Pupil dilation</li>
+              <li>Nausea & vomiting</li>
+              <li>Hyperglycaemia</li>
+            </ul>
+
+            <h3>Presentation</h3>
+            <p class="presentation">Ampoule - 1mg/ml adrenaline (1:1000)</p>
+            <p class="presentation">Ampoule - 1mg/10ml adrenaline (1:10 000)</p>
+
+            <h3>Pharmacokinetics</h3>
+            <!-- See _medications.scss for styling of table -->
+            <table class="meds-table">
+              <thead>
+                <tr>
+                  <th scope="col">Onset</th>
+                  <th scope="col">Duration</th>
+                  <th scope="col">Half-life</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr>
+                  <td>30sec (IV) 60sec (IM)</td>
+                  <td>5 - 10min</td>
+                  <td>2min</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <h3>Special Notes</h3>
+            <div class="notes">
+              <ul>
+                <li>
+                  Adrenaline infusion preparation: Mix 3 mg (3 mL) of 1:1000
+                  adrenaline (epinephrine) with 47 mL of sodium chloride 0.9% to
+                  achieve a final concentration of 60 microg/mL.
+                </li>
+                <li>
+                  Adrenaline (epinephrine) infusions must be administered
+                  through a dedicated line.
+                </li>
+                <li>
+                  All cannulae with adrenaline infusions should be as proximal
+                  as possible, be freely flowing, and be watched closely for
+                  extravasation.
+                </li>
+                <li>
+                  NIBP cuffs must not be placed on limbs with infusions to
+                  ensure flow is not obstructed.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>

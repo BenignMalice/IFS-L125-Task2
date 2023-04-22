@@ -1,0 +1,160 @@
+<!-- See _medication-text.scss for styling -->
+<!-- See _aspirin-heading.scss for styling -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>1st Pulse Training</title>
+    <meta charset="utf-8" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <!-- See _logo.scss for styling -->
+        <div class="logo">
+          <!-- Div for Logo at top of Home page -->
+          <a href="index.html"
+            ><img src="images/logo.jpg" alt="1st Pulse logo"
+          /></a>
+        </div>
+
+        <!-- See _nav.scss for styling -->
+        <div class="navbar">
+          <!-- Div for Navigation bar -->
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <!-- Link to Home page -->
+            <li><a href="medications.html">Medications</a></li>
+            <!-- Link to Medication page -->
+            <li><a href="procedures.html">Procedures</a></li>
+            <!-- Link to Procedure page -->
+            <li><a href="downloads.html">Downloads</a></li>
+            <!-- Link to Links page -->
+          </ul>
+        </div>
+      </header>
+
+      <div class="medication-text">
+        <!-- Div for Main text -->
+
+        <div class="aspirin-heading">
+          <div class="dispirin">
+            <img id="dispirin" src="images/aspirin.jpg" alt="Box of Dispirin" />
+          </div>
+          <div class="aspirin">
+            <h1>Acetylsalicylic acid - Aspirin</h1>
+          </div>
+        </div>
+
+        <div class="split-screen">
+          <div class="screen-left">
+            <h2>Drug Class</h2>
+            <p class="drug-class">
+              Non-steroidal anti-inflammatory / platelet aggregation inhibitor
+            </p>
+
+            <h2>Pharmacology</h2>
+            <p class="pharmacology">
+              Aspirin inhibits platelet aggregation by irreversibly inhibiting
+              cyclo-oxygenase, reducing the synthesis of thromboxane A2 (an
+              inducer of platelet aggregation) for the life of the platelet.
+              This action forms the basis of preventing platelets from
+              aggregating to exposed collagen fibres at the site of vascular
+              injury.
+            </p>
+            <h2>Metabolism</h2>
+            <p class="metabolism">
+              Aspirin is converted to salicylic acid in many tissues, but
+              primarily in the GI mucosa and liver. It is subsequently excreted
+              by the kidneys.
+            </p>
+            <h2>Indications</h2>
+            <ul class="indications">
+              <li>Suspected Acute Coronary Syndromes</li>
+            </ul>
+          </div>
+
+          <div class="screen-right">
+            <h2>Dosage</h2>
+            <h3 class="dosage">
+              Suspected ACS: 300mg orally - chewed, crushed or dissolved
+            </h3>
+
+            <h2>Contraindications</h2>
+            <ul class="contraindications">
+              <li>Allergy and/or adverse drug reaction to aspirin</li>
+              <li>Bleeding or clotting disorders (e.g. haemophilia)</li>
+              <li>Current GI bleeding or active peptic ulcer</li>
+              <li>Patients less than 12yrs old</li>
+              <li>Pregnancy</li>
+              <li>Severe renal impairment/renal transplant</li>
+            </ul>
+            <h2>Precautions</h2>
+            <ul class="precautions">
+              <li>
+                Possible aortic aneurysm or any other condition that may require
+                surgery
+              </li>
+              <li>Pregnancy</li>
+              <li>History of GI bleeding or peptic ulcers</li>
+              <li>Concurrent anticoagulant therapy (e.g. warfarin)</li>
+            </ul>
+          </div>
+
+          <div class="screen-left">
+            <h2>Side Effects</h2>
+            <ul class="side-effects">
+              <li>Anaphylactic/allergic reactions</li>
+              <li>Epigastric pain/discomfort</li>
+              <li>Gastric mucosa irritation</li>
+              <li>Potential bronchoconstriction in asthmatics</li>
+              <li></li>
+            </ul>
+
+            <h3>Presentation</h3>
+            <p class="presentation">Tablet (white). 300mg aspirin.</p>
+
+            <h3>Pharmacokinetics</h3>
+            <table class="meds-table">
+              <!-- See _medications.scss for styling of table -->
+              <thead>
+                <tr>
+                  <th scope="col">Onset</th>
+                  <th scope="col">Duration</th>
+                  <th scope="col">Half-life</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr>
+                  <td>+-10min (variable)</td>
+                  <td>1 week (antiplatelet)</td>
+                  <td>3.2 hours (300-650mg)</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <h3>Special Notes</h3>
+            <div class="notes">
+              <ul>
+                <li>
+                  Patients who have had less than 300mg aspirin in the previous
+                  24hrs and who present with suspected ACS should be
+                  administered a dose of aspirin.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>

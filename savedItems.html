@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>1st Pulse Training</title>
+    <meta charset="utf-8" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
+</link>
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <div class="logo">
+          <a href="index.html"
+            ><img src="images/logo.jpg" alt="1st Pulse logo"
+          /></a>
+        </div>
+
+        <div class="navbar">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="medications.html">Medications</a></li>
+            <li><a href="procedures.html">Procedures</a></li>
+            <li><a href="downloads.html">Downloads</a></li>
+          </ul>
+        </div>
+      </header>
+
+      <div class="split-screen">
+        <h1 id="savedHeading"><span class="fade-text">Saved Items</span></h1>
+
+        <div class="dropdown">
+          <section class="dropdown-content" id="savedItems">
+            <!-- Saved items will be displayed here -->
+          </section>
+
+          <br />
+        </div>
+
+        <div class="right-side">
+          <h3 id="commentH3">
+            <span class="fade-text">
+              Leave a comment <i class="fa-solid fa-comment fa-bounce" style="color: #ff0000;"></i></span
+            >
+          </h3>
+          <div id="commentForm">
+            <fieldset>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required />
+              <br />
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required />
+              <br />
+              <label for="comment">Comment:</label>
+              <textarea id="comment" name="comment" required></textarea>
+              <br />
+              <button id="submit" type="submit">Submit</button>
+              <span id="commentSent"></span>
+            </fieldset>
+          </div>
+        </div>
+      </div>
+
+      <h3 id="contactUsH3">
+        Contact Us      
+         <i class="fas fa-envelope fa-beat fa-lg" style="color: #ff0000"></i>
+      </h3>
+
+      <!-- Show/hide contact form -->
+      <div class="box">
+        <div id="contactFormContainer">
+          <div id="contactForm">
+            <fieldset>
+              <label for="Name">Name:</label>
+              <input id="name" type="text" />
+              <label for="Email">Email address:</label>
+              <input id="Email" type="text" />
+              <label for="Message">Your message:</label>
+              <textarea id="Message" rows="3" cols="30"></textarea>
+              <input
+                id="sendMail"
+                type="submit"
+                name="submit"
+                onclick="closeForm()"
+              />
+              <span id="messageSent">Thank you! </span>
+            </fieldset>
+          </div>
+          <div id="contactLink"></div>
+        </div>
+      </div>
+      <div class="footer">
+        <p>
+          Based on
+          <a href="https://www.hpcsa.co.za/"
+            >Health Professions Council of South Africa
+          </a>
+          guidelines (2018)
+        </p>
+        <p>
+          &copy; 2023 - 1st Pulse Training &#9993;
+          <a href="mailto:info@1stpulse.co.za">Email</a>
+        </p>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>

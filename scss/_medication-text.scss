@@ -1,0 +1,119 @@
+.medication-text {
+ 
+    h2, h3 {
+        color: $blue;
+    }
+
+    .split-screen {
+        display: flex;
+
+        .screen-left {
+            display: flex;
+            flex-direction: column;
+            width: 48%;
+            margin-left: 2em;
+
+            .drug-class {
+                border: solid black 2px;
+                padding: 10px;
+            }
+
+            .pharmacology {
+                border: solid black 2px;
+                padding: 10px;
+            }
+
+            .metabolism {
+                border: solid black 2px;
+                padding: 10px;
+
+            }
+
+            .indications {
+                border: solid black 2px;
+                padding: 10px;
+                color: red;
+                font-weight: bold;
+
+                :hover {
+                    font-size: 2em;
+                    line-height: 1.15em;
+                }
+
+                li {
+                    margin-left: 20px;
+                }
+            }
+
+            .side-effects{
+                border: solid black 2px;
+                list-style-type: none;
+                margin-right: 2em;
+                padding: 10px;
+            }
+
+            .presentation {
+                border: solid black 2px;
+                padding: 10px;
+            }
+        }
+
+        .screen-right {
+            display: flex;
+            flex-direction: column;
+            width: 48%;
+            margin-left: 2em;
+            
+            .dosage {
+                border: solid black 2px;
+                margin-bottom: 1px;
+                padding: 10px;
+                font-weight: bold;
+                color: red;
+            }
+
+            .dosage:hover {
+                background-color: red;
+                color: white;
+                font-size: 2em;
+                line-height: 1.25em;
+            }
+
+            .contraindications {
+                border: solid black 2px;
+                list-style-type: none;
+                padding: 10px;
+            }
+
+            .precautions {
+                list-style-type: none;
+                border: black solid 2px;
+                padding: 10px;
+            }
+        }
+    }
+    .side-effects {
+        border: solid black 2px;
+    }
+
+    .presentation {
+        border: solid black 2px;
+        margin-right: 2em;
+        margin-bottom: 1px;
+        padding: 10px;
+    }
+    
+
+    .notes {
+    
+        border: black solid 2px;
+        height: auto;
+        margin-right: 2em;
+        margin-bottom: 1px;
+        padding: 10px;
+
+        li {
+            margin-left: 20px;
+        }
+    }
+}

@@ -1,0 +1,87 @@
+<!-- See _download-text.scss for styling -->
+<!-- See _contact-form.scss for styling -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>1st Pulse Training</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <!-- Linking stylesheet to page -->
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <!-- See _logo.scss for styling -->
+        <div class="logo">
+          <!-- Div for Logo at top of Home page -->
+          <a href="index.html"
+            ><img src="images/logo.jpg" alt="1st Pulse logo"
+          /></a>
+        </div>
+
+        <!-- See _nav.scss for styling -->
+        <div class="navbar">
+          <!-- Div for Navigation bar -->
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <!-- Link to Home page -->
+            <li><a href="medications.html">Medications</a></li>
+            <!-- Link to Medication page -->
+            <li><a href="procedures.html">Procedures</a></li>
+            <!-- Link to Procedure page -->
+            <li><a href="downloads.html">Downloads</a></li>
+            <!-- Link to Links page -->
+          </ul>
+        </div>
+      </header>
+      <div class="download-text">
+        <!-- Div for Main text on Home page -->
+        <h2>
+          Additional tutorials are available for download - Enter your details
+          below:
+        </h2>
+      </div>
+
+      <div>
+        <!-- Div for Form -->
+        <form class="contact-form">
+          <p>Select which tutorials you would like to receive:</p>
+          <br />
+          <input type="radio" id="meds" name="tutorials" value="Medications" />
+          <label class="meds" for="meds">Medications</label>
+          <input type="radio" id="procs" name="tutorials" value="Procedures" />
+          <label class="procs" for="procs">Procedures</label><br />
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+          <br />
+          <label for="surname">Surname:</label>
+          <input type="text" id="surname" name="surname" required />
+          <br />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+          <br />
+          <input type="submit" value="Download" />
+        </form>
+      </div>
+
+      <div class="footer">
+        <!-- Div for Footer for all pages -->
+        <p>
+          Based on
+          <a href="https://www.hpcsa.co.za/"
+            >Health Professions Council of South Africa</a
+          >
+          guidelines (2018)
+        </p>
+        <p>
+          &copy; 2023 - 1st Pulse Training &#9993;
+          <a href="mailto:info@1stpulse.co.za">Email</a>
+        </p>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>

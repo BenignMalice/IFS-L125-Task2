@@ -1,0 +1,97 @@
+<!-- See _procedures.scss for styling -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>1st Pulse Training</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <!-- See _logo.scss for styling -->
+        <div class="logo">
+          <a href="index.html"
+            ><img src="images/logo.jpg" alt="1st Pulse logo"
+          /></a>
+        </div>
+
+        <!-- Links to other pages on site-->
+        <!-- See _nav.scss for styling -->
+        <div class="navbar">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <!-- Link to Home page -->
+            <li><a href="medications.html">Medications</a></li>
+            <!-- Link to Medication page -->
+            <li><a href="procedures.html">Procedures</a></li>
+            <!-- Link to Procedure page -->
+            <li><a href="downloads.html">Downloads</a></li>
+            <!-- Link to downloads page -->
+          </ul>
+        </div>
+      </header>
+
+      <div class="procedure-heading">
+        <h1>Procedures</h1>
+      </div>
+
+      <div class="procedures">
+        <!-- Div for Main text -->
+
+        <!-- Unordered list for names and links to procedure pages -->
+        <ul class="procedure-list-a-b">
+          <li class="procedure">
+            <a href="needle-crike.html">Needle Cricothyroidotomy</a>
+          </li>
+          <li class="procedure">
+            <a href="nasopharyngeal.html">Nasopharyngeal Tube</a>
+          </li>
+          <li class="procedure">
+            <a href="intubation">Endotracheal intubation</a>
+          </li>
+        </ul>
+
+        <ul class="procedure-list-c-d">
+          <li class="procedure"><a href="intravenous">IV Access</a></li>
+          <li class="procedure">
+            <a href="intraosseous.html">Intraosseous Access</a>
+          </li>
+        </ul>
+
+        <ul class="procedure-list-e-f">
+          <li class="procedure"><a href="Suctioning">Suctioning</a></li>
+          <li class="procedure">
+            <a href="catheterisation">Urinary Catheterisation</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="procedures-main-img">
+        <img
+          src="images/procedures.jpg"
+          alt="Intubation on an airway manikin"
+        />
+      </div>
+
+      <!-- Div for Footer for all pages -->
+      <div class="footer">
+        <p>
+          Based on
+          <a href="https://www.hpcsa.co.za/"
+            >Health Professions Council of South Africa</a
+          >
+          guidelines (2018)
+        </p>
+        <p>
+          &copy; 2023 - 1st Pulse Training &#9993;
+          <a href="mailto:info@1stpulse.co.za">Email</a>
+        </p>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>

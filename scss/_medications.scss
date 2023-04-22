@@ -1,0 +1,67 @@
+.medications-heading,
+.saveForLater {
+  width: 350px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: -25px;
+  border: solid red 4px;
+  padding: 10px 10px;
+  border-radius: 20px;
+  color: red;
+  color: white;
+  background-color: $blue;
+}
+
+.medications {
+  display: flex;
+  justify-content: center;
+  border: red solid 5px;
+  width: 90%;
+  margin: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.med-list-a-b,
+.med-list-c-d,
+.med-list-e-f {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  text-align: center;
+
+  li {
+    margin: 3px;
+    list-style-type: none;
+    border: $blue solid 2px;
+    text-decoration: none;
+    background-color: $blue;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  a:hover {
+    background-color: red;
+    padding: 0 20px;
+    font-weight: bold;
+  }
+}
+
+.meds-table,
+th,
+td {
+  border: 2px solid black;
+  width: 350px;
+}
+
+.medications-main-img img {
+  display: flex;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -20px;
+  border: white solid 5px;
+  border-radius: 25px;
+}

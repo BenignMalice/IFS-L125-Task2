@@ -1,0 +1,600 @@
+/*Importing multiple SCSS style files */
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,500;0,600;1,400;1,600&display=swap");
+.logo-main {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+}
+.logo-main img {
+  display: flex;
+  align-items: center;
+  height: 8em;
+}
+
+.logo {
+  display: flex;
+  margin-top: 1em;
+}
+.logo img {
+  height: 5em;
+  margin-left: 2em;
+}
+
+header {
+  height: 6em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .navbar * {
+  display: inline;
+  text-decoration: none;
+  align-items: center;
+  padding: 10px;
+  background-color: #0a80f7;
+}
+header a {
+  color: white;
+  font-weight: bold;
+}
+header a:hover {
+  color: red;
+}
+
+.central-text {
+  text-align: center;
+  margin-top: 5em;
+  color: #0a80f7;
+}
+.central-text h1 {
+  font-size: 4em;
+}
+.central-text h2 {
+  font-size: 2em;
+}
+.central-text h3 {
+  font-size: 1em;
+}
+.central-text p {
+  margin-top: 0.5em;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3rem;
+  background-color: #558ffb;
+  text-align: center;
+  color: white;
+  justify-content: center;
+}
+
+.buttons {
+  display: flex;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 2em;
+}
+.buttons .meds:hover,
+.buttons .procs:hover {
+  background-color: #389cff;
+  color: white;
+  font-size: 1.5em;
+}
+.buttons .meds {
+  border: red solid 5px;
+  padding: 20px 40px;
+  margin-right: 40px;
+  text-decoration: none;
+  color: red;
+  border-radius: 20px;
+}
+.buttons .procs {
+  border: red solid 5px;
+  padding: 20px 40px;
+  text-decoration: none;
+  color: red;
+  border-radius: 20px;
+}
+
+.fa-bookmark {
+  color: red;
+}
+
+.medications-heading,
+.saveForLater {
+  width: 350px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: -25px;
+  border: solid red 4px;
+  padding: 10px 10px;
+  border-radius: 20px;
+  color: red;
+  color: white;
+  background-color: #389cff;
+}
+
+.medications {
+  display: flex;
+  justify-content: center;
+  border: red solid 5px;
+  width: 90%;
+  margin: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.med-list-a-b,
+.med-list-c-d,
+.med-list-e-f {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  text-align: center;
+}
+.med-list-a-b li,
+.med-list-c-d li,
+.med-list-e-f li {
+  margin: 3px;
+  list-style-type: none;
+  border: #389cff solid 2px;
+  text-decoration: none;
+  background-color: #389cff;
+}
+.med-list-a-b a,
+.med-list-c-d a,
+.med-list-e-f a {
+  text-decoration: none;
+  color: white;
+}
+.med-list-a-b a:hover,
+.med-list-c-d a:hover,
+.med-list-e-f a:hover {
+  background-color: red;
+  padding: 0 20px;
+  font-weight: bold;
+}
+
+.meds-table,
+th,
+td {
+  border: 2px solid black;
+  width: 350px;
+}
+
+.medications-main-img img {
+  display: flex;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -20px;
+  border: white solid 5px;
+  border-radius: 25px;
+}
+
+.medication-text h2, .medication-text h3 {
+  color: #389cff;
+}
+.medication-text .split-screen {
+  display: flex;
+}
+.medication-text .split-screen .screen-left {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+  margin-left: 2em;
+}
+.medication-text .split-screen .screen-left .drug-class {
+  border: solid black 2px;
+  padding: 10px;
+}
+.medication-text .split-screen .screen-left .pharmacology {
+  border: solid black 2px;
+  padding: 10px;
+}
+.medication-text .split-screen .screen-left .metabolism {
+  border: solid black 2px;
+  padding: 10px;
+}
+.medication-text .split-screen .screen-left .indications {
+  border: solid black 2px;
+  padding: 10px;
+  color: red;
+  font-weight: bold;
+}
+.medication-text .split-screen .screen-left .indications :hover {
+  font-size: 2em;
+  line-height: 1.15em;
+}
+.medication-text .split-screen .screen-left .indications li {
+  margin-left: 20px;
+}
+.medication-text .split-screen .screen-left .side-effects {
+  border: solid black 2px;
+  list-style-type: none;
+  margin-right: 2em;
+  padding: 10px;
+}
+.medication-text .split-screen .screen-left .presentation {
+  border: solid black 2px;
+  padding: 10px;
+}
+.medication-text .split-screen .screen-right {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+  margin-left: 2em;
+}
+.medication-text .split-screen .screen-right .dosage {
+  border: solid black 2px;
+  margin-bottom: 1px;
+  padding: 10px;
+  font-weight: bold;
+  color: red;
+}
+.medication-text .split-screen .screen-right .dosage:hover {
+  background-color: red;
+  color: white;
+  font-size: 2em;
+  line-height: 1.25em;
+}
+.medication-text .split-screen .screen-right .contraindications {
+  border: solid black 2px;
+  list-style-type: none;
+  padding: 10px;
+}
+.medication-text .split-screen .screen-right .precautions {
+  list-style-type: none;
+  border: black solid 2px;
+  padding: 10px;
+}
+.medication-text .side-effects {
+  border: solid black 2px;
+}
+.medication-text .presentation {
+  border: solid black 2px;
+  margin-right: 2em;
+  margin-bottom: 1px;
+  padding: 10px;
+}
+.medication-text .notes {
+  border: black solid 2px;
+  height: auto;
+  margin-right: 2em;
+  margin-bottom: 1px;
+  padding: 10px;
+}
+.medication-text .notes li {
+  margin-left: 20px;
+}
+
+.procedure-heading {
+  width: 350px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: -25px;
+  border: solid red 4px;
+  padding: 10px 10px;
+  border-radius: 20px;
+  color: white;
+  background-color: #389cff;
+}
+
+.procedures {
+  display: flex;
+  justify-content: center;
+  border: red solid 5px;
+  width: 90%;
+  margin: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.procedure-list-a-b, .procedure-list-c-d, .procedure-list-e-f {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  text-align: center;
+}
+.procedure-list-a-b li, .procedure-list-c-d li, .procedure-list-e-f li {
+  margin: 3px;
+  list-style-type: none;
+  border: #389cff solid 2px;
+  text-decoration: none;
+  background-color: #389cff;
+}
+.procedure-list-a-b a, .procedure-list-c-d a, .procedure-list-e-f a {
+  text-decoration: none;
+  color: white;
+}
+.procedure-list-a-b a:hover, .procedure-list-c-d a:hover, .procedure-list-e-f a:hover {
+  background-color: red;
+  padding: 0 20px;
+  font-weight: bold;
+}
+
+.procedure-table, th, td {
+  border: 2px solid black;
+  width: 350px;
+}
+
+.procedures-main-img img {
+  display: flex;
+  height: 180px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -20px;
+  border: white solid 5px;
+  border-radius: 25px;
+}
+
+.needle-cric h1 {
+  border: solid #389cff 4px;
+  text-align: center;
+  width: 40%;
+  margin: 5px auto;
+  border-radius: 20px;
+  color: red;
+}
+.needle-cric .needle {
+  display: flex;
+  height: 500px;
+  width: auto;
+  margin: 10px auto;
+  border: red 5px solid;
+}
+
+/* Container for form */
+.contact-form {
+  margin: 1em auto;
+  padding: 20px;
+  border: 5px solid red;
+  max-width: 500px;
+  background-color: #389cff;
+}
+.contact-form p {
+  color: white;
+  text-align: center;
+}
+.contact-form label {
+  font-weight: bold;
+  color: white;
+  font-size: 1.25em;
+  margin-left: 200px;
+}
+.contact-form label.meds, .contact-form label.procs {
+  margin-left: 0px;
+}
+.contact-form input {
+  width: 15em;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+.contact-form input[type=submit] {
+  display: flex;
+  margin: 20px auto;
+  justify-content: center;
+  padding: 10px;
+  background-color: white;
+  color: red;
+  font-size: 0.75em;
+  cursor: pointer;
+}
+.contact-form input[type=text] {
+  display: flex;
+  justify-content: center;
+  margin: 10px auto;
+}
+.contact-form input[type=email] {
+  display: flex;
+  justify-content: center;
+  margin: 10px auto;
+}
+.contact-form input[type=radio] {
+  cursor: pointer;
+  display: inline-flex;
+}
+.contact-form input#meds, .contact-form input#procs {
+  width: 50px;
+  margin-left: 50px;
+  margin-bottom: 30px;
+}
+
+.download-text {
+  text-align: center;
+  margin-top: 1.5em;
+  color: #0a80f7;
+}
+.download-text h2 {
+  font-size: 2em;
+  line-height: 1em;
+}
+
+.aspirin-heading {
+  display: flex;
+  height: 100px;
+  justify-content: center;
+}
+.aspirin-heading #dispirin {
+  height: 125px;
+  width: auto;
+}
+
+.aspirin h1 {
+  border: solid red 4px;
+  margin: 20px auto;
+  padding: 10px 30px;
+  border-radius: 20px;
+  color: white;
+  background-color: #0a80f7;
+}
+
+.adrenaline-heading {
+  display: flex;
+  height: 100px;
+  justify-content: center;
+}
+.adrenaline-heading #adrenaline {
+  height: 120px;
+  width: auto;
+}
+
+.adrenaline-h1 h1 {
+  border: solid red 4px;
+  margin: 20px auto;
+  padding: 10px 30px;
+  border-radius: 20px;
+  color: white;
+  background-color: #0a80f7;
+}
+
+#savedHeading,
+#commentForm,
+#contactForm {
+  width: 500px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: -25px;
+  border: solid red 4px;
+  padding: 10px 10px;
+  border-radius: 20px;
+  color: red;
+  color: white;
+  background-color: #389cff;
+}
+
+#savedItems {
+  width: 20%;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#commentForm,
+#contactForm {
+  width: 80%;
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+}
+
+#savedItems a {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin-bottom: 5px;
+  background-color: #0a80f7;
+  border-radius: 20px;
+  color: white;
+}
+
+.right-side {
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+#contactFormContainer {
+  position: absolute;
+  left: 430px;
+  float: right;
+}
+
+#contactForm,
+#commentForm {
+  height: auto;
+  width: 350px;
+  background-color: #0a80f7;
+  display: block;
+  padding: 20px;
+}
+
+#contactUsH3,
+#commentH3 {
+  width: 350px;
+  height: 50px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: -25px;
+  border: solid red 4px;
+  padding: 10px 10px;
+  border-radius: 20px;
+  color: red;
+  color: white;
+  background-color: #0a80f7;
+  cursor: pointer;
+}
+
+#contactForm fieldset,
+#commentForm fieldset {
+  border: none;
+}
+
+#contactForm label,
+#commentForm label {
+  display: block;
+  color: white;
+  margin-bottom: 5px;
+}
+
+#contactForm input[type=text],
+#commentForm input[type=text] {
+  display: block;
+  border: solid 2px red;
+  width: 100%;
+  margin-bottom: 10px;
+  height: 25px;
+  padding: 5px;
+}
+
+#contactForm textarea,
+#contactForm textarea {
+  display: block;
+  border: solid 2px red;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+#contactForm input[type=submit],
+#contactForm input[type=submit] {
+  background-color: red;
+  border: solid 1px black;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+}
+
+#messageSent {
+  color: white;
+  margin-top: 5px;
+  display: none;
+}
+
+/* Sets variable for common colour used */
+/* Defines a custom font from Google Fonts, sets a variable called 
+and applies some basic styles to all HTML elements using the asterisk selector. */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+}
+
+header {
+  background-color: white;
+  position: sticky;
+  top: 0;
+}
+
+.index-header {
+  position: relative;
+}/*# sourceMappingURL=style.css.map */

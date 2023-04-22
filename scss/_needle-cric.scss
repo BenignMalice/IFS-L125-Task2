@@ -1,0 +1,21 @@
+.needle-cric{
+   
+    h1 {
+        border: solid $blue 4px;
+        text-align: center;
+        width: 40%;
+        margin: 5px auto;
+        border-radius: 20px;
+        color: red;
+    }
+
+    .needle {
+        display: flex;
+        height: 500px;
+        width: auto;
+        margin: 10px auto;
+        border: red 5px solid;
+       
+       
+    }
+}

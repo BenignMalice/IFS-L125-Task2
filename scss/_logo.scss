@@ -1,0 +1,22 @@
+.logo-main {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+
+  img {
+    display: flex;
+    align-items: center;
+    height: 8em;
+  }
+}
+
+.logo {
+  display: flex;
+  margin-top: 1em;
+  img {
+    height: 5em;
+    margin-left: 2em;
+  }
+}

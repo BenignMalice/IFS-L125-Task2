@@ -1,0 +1,26 @@
+$blue: #0a80f7;
+
+header {
+  height: 6em;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .navbar * {
+    display: inline;
+    text-decoration: none;
+    align-items: center;
+    padding: 10px;
+    background-color: $blue;
+  }
+
+  a {
+    color: white;
+    font-weight: bold;
+  }
+
+  a:hover {
+    color: red;
+  }
+}

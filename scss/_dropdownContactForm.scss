@@ -1,0 +1,77 @@
+#contactFormContainer {
+  position: absolute;
+  left: 430px;
+  float: right;
+}
+
+#contactForm,
+#commentForm {
+  height: auto;
+  width: 350px;
+  background-color: $blue;
+  display: block;
+  padding: 20px;
+}
+
+#contactUsH3,
+#commentH3 {
+  width: 350px;
+  height: 50px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: -25px;
+  border: solid red 4px;
+  padding: 10px 10px;
+  border-radius: 20px;
+  color: red;
+  color: white;
+  background-color: $blue;
+
+  cursor: pointer;
+}
+
+#contactForm fieldset,
+#commentForm fieldset {
+  border: none;
+}
+
+#contactForm label,
+#commentForm label {
+  display: block;
+  color: white;
+  margin-bottom: 5px;
+}
+
+#contactForm input[type="text"],
+#commentForm input[type="text"] {
+  display: block;
+  border: solid 2px red;
+  width: 100%;
+  margin-bottom: 10px;
+  height: 25px;
+  padding: 5px;
+}
+
+#contactForm textarea,
+#contactForm textarea {
+  display: block;
+  border: solid 2px red;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+#contactForm input[type="submit"],
+#contactForm input[type="submit"] {
+  background-color: red;
+  border: solid 1px black;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+}
+
+#messageSent {
+  color: white;
+  margin-top: 5px;
+  display: none;
+}

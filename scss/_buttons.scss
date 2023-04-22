@@ -1,0 +1,38 @@
+$blue: #389cff;
+
+.buttons {
+  display: flex;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 2em;
+
+  .meds:hover,
+  .procs:hover {
+    background-color: $blue;
+    color: white;
+    font-size: 1.5em;
+  }
+
+  .meds {
+    border: red solid 5px;
+    padding: 20px 40px;
+    margin-right: 40px;
+    text-decoration: none;
+    color: red;
+    border-radius: 20px;
+  }
+
+  .procs {
+    border: red solid 5px;
+    padding: 20px 40px;
+    text-decoration: none;
+    color: red;
+    border-radius: 20px;
+  }
+}
+
+.fa-bookmark {
+  color: red;
+}
